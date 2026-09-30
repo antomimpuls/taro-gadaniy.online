@@ -8,7 +8,7 @@
 <meta content="Любовная магия: {{NAME}} — расклад, прогноз и пошаговый план действий без паники." name="description"/>
 <meta content="Любовная магия | Помощь в день обращения" property="og:title"/>
 <meta content="{{NAME}} помогает в острой ситуации: диагностика, план действий и поддержка до результата." property="og:description"/>
-<meta content="https://raw.githubusercontent.com/antomimpuls/taro-gadaniy.online/main/Screenshot_24.png" property="og:image"/>
+<meta content="https://taro-gadaniy.online/photo-1ab40ec986504c519a880efecd501cf5.jpg" property="og:image"/>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&amp;family=Lora:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <script>
 const SITE_SETTINGS = {
@@ -24,7 +24,7 @@ const SITE_SETTINGS = {
   'telegramEnabled': 1,
   'telegramNickname': 'Lidya_00',
   'yandexMetrikaId': '112719736',
-  'psychicImageURL': 'https://raw.githubusercontent.com/antomimpuls/taro-gadaniy.online/main/Screenshot_24.png',
+  'psychicImageURL': 'https://taro-gadaniy.online/photo-1ab40ec986504c519a880efecd501cf5.jpg',
   'workingHours': 'ежедневно 08:00-22:00',
   'responseTime': '5 минут',
   'metrikaMessengerVisible': false
@@ -553,6 +553,11 @@ p{color:var(--text-muted)}
 @keyframes firePulse{0%,100%{transform:scale(1);box-shadow:0 0 30px rgba(251,146,60,0.25)}50%{transform:scale(1.03);box-shadow:0 0 50px rgba(251,146,60,0.4),0 0 80px rgba(244,63,94,0.2)}}
 /* THEME_OVERRIDES_END ember-site */
 </style>
+
+<style id="studio-photo-fit">
+.studio-photo-backdrop{position:absolute;inset:7px;border-radius:50%;overflow:hidden;z-index:1;background:center/cover no-repeat url("https://taro-gadaniy.online/photo-1ab40ec986504c519a880efecd501cf5.jpg");filter:blur(8px);opacity:.85;pointer-events:none}
+.hero-img #psychicImage{box-sizing:border-box!important;object-fit:contain!important;object-position:center!important;padding:12%!important;background:transparent!important}
+</style>
 </head>
 <body>
 <div class="sticky-messengers" id="stickyMessengers">
@@ -579,7 +584,7 @@ p{color:var(--text-muted)}
 </div>
 <div>
 <div class="hero-img">
-<img alt="Гадалка" id="psychicImage" src="https://raw.githubusercontent.com/antomimpuls/gadalka-ministr.ru/main/VTF8Z36HIcK_RaUBi9dugVJHIYK-zeXdIOrO2G65QodR1e1A6X6ixziF7KGYuxG_nbLckbModsi0qo9DFraD1l8U.jpg"/>
+<span class="studio-photo-backdrop" aria-hidden="true"></span><img alt="Гадалка" id="psychicImage" src="https://taro-gadaniy.online/photo-1ab40ec986504c519a880efecd501cf5.jpg"/>
 <div class="rune-symbol">ᚨ</div>
 <div class="rune-symbol">ᛉ</div>
 <div class="rune-symbol">ᚠ</div>
